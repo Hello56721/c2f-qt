@@ -3,7 +3,8 @@
 
 #include <string>
 
-void C2F::f2c() {
+void C2F::f2c() 
+{
     QString cqstr = ui->f2cInput->text();
     QString result;
     
@@ -22,7 +23,8 @@ void C2F::f2c() {
     ui->f2cResultLabel->setText(result);
 }
 
-void C2F::c2f() {
+void C2F::c2f() 
+{
     QString cqstr = ui->c2fInput->text();
     QString result;
     
