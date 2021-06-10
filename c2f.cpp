@@ -10,7 +10,7 @@ void C2F::f2c() {
     bool success;
     double f = cqstr.toDouble(&success);
     if (!success) {
-        result = "Result: NaN";
+        result = "<b style=\"font-size: 11pt\">Result: NaN</b>";
         ui->f2cResultLabel->setText(result);
         return;
     }
@@ -29,7 +29,7 @@ void C2F::c2f() {
     bool success;
     double c = cqstr.toDouble(&success);
     if (!success) {
-        result = "Result: NaN";
+        result = "<b style=\"font-size: 11pt\">Result: NaN</b>";
         ui->c2fResultLabel->setText(result);
         return;
     }
